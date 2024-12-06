@@ -17,7 +17,7 @@ a, p, span, li, h1, h2, h3{
 }
 
 /* Header-----------------------*/
-.header_container{
+header{
     max-height: 300px;
     max-width: 75%;
     display: flex;
@@ -47,7 +47,7 @@ a, p, span, li, h1, h2, h3{
     border-radius: 50%;
 }
 /* main-----------------------*/
-.main_container{
+main{
     max-width: 75%;
     margin: 15px auto;
     margin-top: 15px;
@@ -102,7 +102,7 @@ a, p, span, li, h1, h2, h3{
     padding: 15px;
 }
 /* footer-----------------------*/
-.footer_conteiner{
+footer{
     max-height: 400px;
     max-width: 75%;
     margin: 0 auto;
