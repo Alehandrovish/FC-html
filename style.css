@@ -8,7 +8,6 @@ body{
     background: black;
     font-family: Arial, Helvetica, sans-serif;
     margin: 15px;
-    font-size: 16px;
 }
 a, p, span, li, h1, h2, h3, h4{
     text-decoration: none;
@@ -21,10 +20,8 @@ header{
     max-height: 300px;
     max-width: 75%;
     display: flex;
-    flex-direction: row;
     align-items: center;
     justify-content:space-between;
-    flex: 1 1 auto;
     margin: 0 auto;
     border: 3px solid red;
     border-radius: 5px;
@@ -32,7 +29,6 @@ header{
 
 .navigation_list{
     display: flex;
-    align-items: center;
 }
 .navigation_item{
     font-size: 2em;
@@ -50,7 +46,6 @@ header{
 main{
     max-width: 75%;
     margin: 15px auto;
-    margin-top: 15px;
     border: 3px solid red;
     border-radius: 5px;
 }
@@ -123,8 +118,9 @@ footer{
     font-size: 2em;
     font-weight: bold;
     border-bottom: 3px solid white;
-    max-width: 50%;
+    max-width: 70%;
     margin: 0 auto;
+    padding-top: 15px;
 }
 .footer_body{
     display: flex;
@@ -143,4 +139,5 @@ footer{
 }
 .footer_text{
     font-size: 1.1em;
+    padding: 5px 15px;
 }
