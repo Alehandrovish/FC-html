@@ -10,7 +10,7 @@ body{
     margin: 15px;
     font-size: 16px;
 }
-a, p, span, li, h1, h2, h3{
+a, p, span, li, h1, h2, h3, h4{
     text-decoration: none;
     list-style: none;
     color: white;
@@ -84,15 +84,24 @@ main{
     border-radius: 25%;
 }
 .car_titleh1{
-    font-size: 2em;
+    font-size: 2.5em;
+    padding: 15px 0;
+    max-width: 75%;
+    text-align: center;
+    border: 3px solid red;
+    border-radius: 5px;
+    margin: 15px auto;
 }
 .car_titleh2{
+    font-size: 2em;
+}
+.car_titleh3{
     font-size: 1.5em;
     border-bottom: 3px solid white;
     padding-left: 15px;
     margin-bottom: 15px;
 }
-.car_titleh3{
+.car_titleh4{
     font-size: 1.2em;
     text-decoration: underline solid 3px;
     padding-left: 15px;
