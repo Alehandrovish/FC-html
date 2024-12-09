@@ -104,6 +104,26 @@ main{
     font-size: 1.1em;
     padding: 15px;
 }
+/* table-----------------------*/
+.table{
+    margin: 0 auto;
+    border: 3px solid #a5d3ff;
+    border-radius: 10px;
+    margin: 20px;
+    padding: 20px;
+}
+table{
+    width: 60%;
+    margin: 15px auto;
+    border: 3px solid #399cdd;
+    color: #464242;
+    font-size: 1.1em;
+}
+th, td{
+    border: 3px solid #399cdd;
+    text-align: center;
+    font-weight: bold;
+}
 /* footer-----------------------*/
 footer{
     max-height: 400px;
