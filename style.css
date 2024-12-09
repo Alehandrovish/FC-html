@@ -119,6 +119,11 @@ table{
     color: #464242;
     font-size: 1.1em;
 }
+.table_title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 th, td{
     border: 3px solid #399cdd;
     text-align: center;
