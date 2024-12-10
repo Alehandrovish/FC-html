@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+    <link rel="stylesheet" href="./style.css" type="text/css" />
+    <link rel="shortcut icon" href="./src/logo/logo.png" type="image/x-icon" />
+  </head>
+  <body>
+    <fieldset>
+      <legend>Персональні дані</legend>
+      <form name="per_data">
+        <div>
+          <label for="name">Ім'я</label>
+          <input type="text" id="name" name="name" />
+        </div>
+        <div>
+          <label for="surName">Прізвище</label>
+          <input type="text" id="surName" name="surName" />
+        </div>
+        <div>
+          <label for="birhtDay">День народження</label>
+          <input
+            type="datetime-local"
+            id="birhtDay"
+            name="birhtDay"
+            min="2007-01-01T00:00"
+            max="2025-01-01T00:00"
+          />
+        </div>
+        <div>
+          <p>Стать</p>
+          <input type="radio" id="gender_male" name="gender" value="male"/>
+          <label for="gender_male">Чоловіча</label>
+          <input type="radio" id="gender_female" name="gender" value="female"/>
+          <label for="gender_female">Жіноча</label>
+        </div>
+        <div>
+          <label for="expirience">Досвід водіння</label>
+          <select id="expirience" name="expirience">
+            <option value="-" hidden>---</option>
+            <option value="dont_have">немає</option>
+            <option value="less_than_year">Меньше року</option>
+            <option value="year">рік</option>
+            <option value="more_than_year">Більше року</option>
+          </select>
+        </div>
+      </form>
+    </fieldset>
+  </body>
+</html>
