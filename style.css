@@ -130,6 +130,10 @@ th, td{
     font-weight: bold;
 }
 /* form-----------------------*/
+form{
+    width: 40%;
+    margin: 0 auto;
+}
 fieldset{
     border: 3px solid #399cdd;
     margin: 15px 0 15px 15px;
@@ -149,6 +153,12 @@ p.gender{
 }
 label{
     vertical-align: top;
+}
+.button{
+    cursor: pointer;
+    background-color: #399cdd;
+    border-radius: 5px;
+    padding: 5px;
 }
 /* footer-----------------------*/
 footer{
