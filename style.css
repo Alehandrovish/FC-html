@@ -147,6 +147,9 @@ form *{
 form p{
    margin-left: 100px;
 }
+label{
+    vertical-align: top;
+}
 /* footer-----------------------*/
 footer{
     max-height: 400px;
