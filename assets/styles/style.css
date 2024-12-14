@@ -58,7 +58,7 @@ main{
     padding: 20px;
 }
 
-.car_logo-title-top{
+.car_logo_title_top{
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -66,7 +66,7 @@ main{
     padding: 10px;
     border-bottom: 3px solid #a5d3ff;
 }
-.car_logo-title{
+.car_logo_title{
     display: flex;
     align-items: center;
     gap: 20px;
@@ -122,7 +122,6 @@ table{
 .table_title{
     display: flex;
     justify-content: space-between;
-    align-items: center;
 }
 th, td{
     border: 3px solid #399cdd;
