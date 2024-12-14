@@ -5,19 +5,13 @@ form{
 }
 fieldset{
     border: 3px solid #399cdd;
-    margin: 15px 0 15px 15px;
-}
-legend{
-    font-size: 1.1em;
-    margin-left: 20px;
-    color: #464242;
 }
 form *{
     color: #464242;
     font-size: 1.1em;
     margin: 5px;
 }
-p.gender{
+.gender_title{
    margin-left: 100px;
 }
 label{
