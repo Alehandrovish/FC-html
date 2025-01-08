@@ -1,25 +1,79 @@
 /* form-----------------------*/
-form{
-    width: 40%;
-    margin: 0 auto;
+html {
+  --fieldset_square: 350px;
+  --font_size_form: 1.1rem;
+  box-sizing: border-box;
 }
-fieldset{
-    border: 3px solid #399cdd;
+body,
+form {
+  display: flex;
+  align-items: center;
 }
-form *{
-    color: #464242;
-    font-size: 1.1em;
-    margin: 5px;
+body {
+  height: 100vh;
 }
-.gender_title{
-   margin-left: 100px;
+form {
+  flex: 1;
+  flex-wrap: wrap;
+  justify-content: center;
 }
-label{
-    vertical-align: top;
+form * {
+  color: #464242;
+  font-size: var(--font_size_form);
+  margin: 5px;
 }
-.button{
-    cursor: pointer;
-    background-color: #399cdd;
-    border-radius: 5px;
-    padding: 5px;
+fieldset {
+  border: 3px solid #399cdd;
+  display: flex;
+  flex-direction: column;
+  min-width: var(--fieldset_square);
+  min-height: var(--fieldset_square);
+}
+legend {
+  font-size: calc(var(--font_size_form) * 1.3);
+}
+.form_info {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.form_info input,
+.form_info select,
+.form_info textarea {
+  width: 60%;
+}
+.used {
+  justify-content: flex-start;
+}
+.used input {
+  width: 20%;
+}
+.color {
+  margin: 5px 0;
+}
+.price {
+  flex-direction: column;
+}
+.form-range input,
+datalist {
+  width: 100%;
+}
+.form_radio {
+  display: flex;
+}
+datalist {
+  display: flex;
+  justify-content: space-between;
+}
+.form_buttons {
+  display: flex;
+  flex: 1 1 100%;
+  justify-content: center;
+  padding-top: 20px;
+}
+.button {
+  cursor: pointer;
+  background-color: #399cdd;
+  border-radius: 5px;
+  padding: 10px 20px;
 }
